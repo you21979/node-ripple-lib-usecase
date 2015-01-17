@@ -6,6 +6,24 @@ install
 
 ```
 
+## usecase of user watch
+
+```
+var rp = require('ripple-lib-promise');
+var UserAccount = require('ripple-usecase').UserAccount;
+rp.createConnect().then(function(remote){
+    var u = new UserAccount(remote, 'ripple address');
+    return u.assets().then(function(res){
+        res.forEach(function(v){
+            var l = [v.name];
+            if(v.account !== ''){
+                l.push(v.account);
+            }
+            console.log("%s,%d", l.join('.'), v.value)
+        })
+    })
+})
+```
 
 ## usecase of gateway watch
 
