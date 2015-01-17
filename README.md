@@ -2,7 +2,7 @@
 
 install
 ```
-
+npm install ripple-usecase
 
 ```
 
