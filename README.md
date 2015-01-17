@@ -17,7 +17,7 @@ rp.createConnect().then(function(remote){
     g.debt().then(function(res){
         console.log('gateway trust count %d', res.holders.length);
         Object.keys(res.debt).forEach(function(key){
-	    console.log('gateway balance %s:%d', key, res.debt[key]);
+            console.log('gateway balance %s:%d', key, res.debt[key]);
         });
     });
 })
