@@ -1,0 +1,32 @@
+{
+  "name": "ripple-usecase",
+  "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "bluebird":"",
+    "moment":"",
+    "node-trade-util" : "git://github.com/you21979/node-trade-util.git",
+    "ripple-lib-promise":"git://github.com/you21979/node-ripple-lib-promise.git"
+  },
+  "readmeFilename": "README.md",
+  "description": "this is sample project",
+  "main": "index.js",
+  "devDependencies": {
+    "istanbul":"",
+    "coveralls":"",
+    "power-assert":"",
+    "mocha":""
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "repository": {
+  },
+  "keywords": [
+  ],
+  "license": "MIT",
+  "bugs": {
+  }
+}
