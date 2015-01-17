@@ -1,4 +1,4 @@
-# node-ripple-lib-usecase
+# node-ripple-usecase
 
 ## usecase of gateway watch
 
