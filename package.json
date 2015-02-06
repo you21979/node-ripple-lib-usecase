@@ -13,6 +13,11 @@
   "description": "this is sample project",
   "main": "index.js",
   "devDependencies": {
+    "gulp":"",
+    "browserify":"",
+    "uglify":"",
+    "source":"",
+    "buffer":"",
     "istanbul":"",
     "coveralls":"",
     "power-assert":"",
